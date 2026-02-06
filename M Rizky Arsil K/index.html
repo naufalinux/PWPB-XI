@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile | [Mochammad Rizki arsil kusnandar]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            /* Gradasi sesuai permintaan: Putih -> Biru Muda -> Biru Tua */
+            background: linear-gradient(180deg, #ffffff 0%, #e0f7fa 35%, #ffffff 100%);
+            color: #000000;
+        }
+
+        /* --- NAVIGATION --- */
+        nav {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #000000;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li { margin-left: 20px; }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover { color: #000000; }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .profile-frame {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin-bottom: 25px;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 8px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .hero h1 { font-size: 3.5rem; color: #080808; margin-bottom: 5px; }
+        .hero p { font-size: 1.2rem; color: #000000; letter-spacing: 1px; }
+
+        /* --- CONTAINER & SECTION --- */
+        .container { max-width: 1100px; margin: 0 auto; padding: 60px 20px; }
+
+        section { padding: 40px 0; }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .section-title h2 {
+            font-size: 2.2rem;
+            color: #000000;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .section-title h2::after {
+            content: '';
+            width: 60px;
+            height: 4px;
+            background: #0392ff;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+
+        /* --- CARDS & GRIDS --- */
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+
+        .card:hover { transform: translateY(-10px); }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        /* --- SPECIFIC STYLES --- */
+        .skill-bar { margin-bottom: 15px; }
+        .bar-bg { background: #eee; height: 10px; border-radius: 5px; margin-top: 5px; }
+        .bar-fill { background: #fcfeff; height: 10px; border-radius: 5px; }
+
+        .portfolio-item {
+            height: 200px;
+            background: #eee;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #000000;
+            border: 2px dashed #ccc;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background: #ffffff;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            nav ul { display: none; }
+            .hero h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">PORTFOLIO</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#experience">Pengalaman</a></li>
+            <li><a href="#skills">Keahlian</a></li>
+            <li><a href="#portfolio">Proyek</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="profile-frame">
+            <img src="Rizky.jpg" alt="Foto Profil" class="profile-img">
+        </div>
+        <h1>Halo, Saya [Rizky]</h1>
+        <p>Creative Designer & Fullstack Developer</p>
+    </section>
+
+    <div class="container">
+        
+        <section id="about">
+            <div class="section-title"><h2>Tentang Saya</h2></div>
+            <div class="card">
+                <p style="text-align: center; font-size: 1.1rem; color: #666;">
+                    Saya adalah seorang antusias teknologi yang memiliki pengalaman lebih dari 3 tahun dalam industri kreatif. 
+                    Fokus utama saya adalah menciptakan solusi digital yang tidak hanya fungsional tetapi juga estetis.
+                </p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="section-title"><h2>Pengalaman Kerja</h2></div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Senior Developer</h3>
+                    <p style="color: #01579b; font-weight: bold;">PT. Maju Bersama (2022 - Sekarang)</p>
+                    <p>Memimpin tim pengembang untuk membangun aplikasi berbasis cloud.</p>
+                </div>
+                <div class="card">
+                    <h3>UI Designer</h3>
+                    <p style="color: #01579b; font-weight: bold;">Creative Agency (2020 - 2022)</p>
+                    <p>Merancang antarmuka pengguna untuk lebih dari 50 klien global.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-title"><h2>Keahlian</h2></div>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="skill-bar">
+                        <span>Web Development</span>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span>Graphic Design</span>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span>Database Management

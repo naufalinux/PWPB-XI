@@ -1,9 +1,9 @@
 Repositori pembelajaran
-Mata Pelajaran: Pemrograman Web & Perangkat Bergerak (PWPB)
-Kelas: XI
-Program Keahlian: Teknik Komputer Jaringan dan Telekomunikasi (TKJT)
-Sekolah: SMK 98 Ciawi Al-Fakhriyah
-Pengajar Mapel: Sir Naufalinux
+- Mata Pelajaran: Pemrograman Web & Perangkat Bergerak (PWPB)
+- Kelas: XI
+- Program Keahlian: Teknik Komputer Jaringan dan Telekomunikasi (TKJT)
+- Sekolah: SMK 98 Ciawi Al-Fakhriyah
+- Pengajar Mapel: Sir Naufalinux
 
 # 📘 Pemrograman Web
 

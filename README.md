@@ -48,6 +48,6 @@ Untuk pengguna Linux, VSCodium dapat diinstal melalui package manager.
 1. Perintah Terminal/Konsole:
    ```bash
    sudo apt update && sudo apt install flatpak gnome-software gnome-software-plugin-flatpak -y
-   flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+   sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
    sudo flatpak install -y com.vscodium.codium
 2. Reboot/Restart PC/Laptop

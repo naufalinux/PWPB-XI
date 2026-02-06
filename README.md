@@ -1,15 +1,10 @@
 # PWPB-XI
-Repo pembelajaran Pemrograman Web SMK 98 Ciawi Al-Fakhriyah Kelas XI
-- Abdul Jalil
-- Egha Febry Kurniawan
-- Marvel Dimas Saputra
-- Moch Farhan Arsalan 
-- Mohammad Galih Nugraha
-- Muchamad Rizki Arsila Kusnandar 
-- Muhammad Mugia mufti
-- Siti Aulia Nurpadillah
-- Sulis Baldiah
-- Supriadi
+Repositori pembelajaran
+Mata Pelajaran: Pemrograman Web & Perangkat Bergerak (PWPB)
+Kelas: XI
+Program Keahlian: Teknik Komputer Jaringan dan Telekomunikasi (TKJT)
+Sekolah: SMK 98 Ciawi Al-Fakhriyah
+Pengajar Mapel: Sir Naufalinux
 
 # 📘 Pemrograman Web SMK
 
@@ -50,4 +45,22 @@ Untuk pengguna Linux, VSCodium dapat diinstal melalui package manager.
    sudo apt update && sudo apt install flatpak gnome-software gnome-software-plugin-flatpak -y
    sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
    sudo flatpak install -y com.vscodium.codium
-2. Reboot/Restart PC/Laptop
+2. Jika aplikasi VSCodium nya belum muncul di menu, silakan reboot atau restart PC/Laptop
+
+# Selamat Belajar Coding!
+
+Teacher: Sir Naufalinux
+Program Keahlian: Teknik Komputer Jaringan dan Telekomunikasi (TKJT)
+SMK 98 Ciawi Al-Fakhriyah
+
+Students/Contributors:
+- Abdul Jalil
+- Egha Febry Kurniawan
+- Marvel Dimas Saputra
+- Moch Farhan Arsalan 
+- Mohammad Galih Nugraha
+- Muchamad Rizki Arsila Kusnandar 
+- Muhammad Mugia mufti
+- Siti Aulia Nurpadillah
+- Sulis Baldiah
+- Supriadi

@@ -45,8 +45,9 @@ VSCodium adalah versi open-source dari Visual Studio Code tanpa telemetry.
 Untuk pengguna Linux, VSCodium dapat diinstal melalui package manager.
 
 **Langkah instalasi:**
-1. Tambahkan repository VSCodium:
+1. Perintah Terminal/Konsole:
    ```bash
-   wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
-   | gpg --dearmor \
-   | sudo tee /usr/share/keyrings/vscodium-archive-keyring.gpg > /dev/null
+   sudo apt update && sudo apt install flatpak gnome-software gnome-software-plugin-flatpak -y
+   flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+   sudo flatpak install -y com.vscodium.codium
+2. Reboot/Restart PC/Laptop

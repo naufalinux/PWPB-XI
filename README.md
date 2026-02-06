@@ -1,4 +1,3 @@
-# PWPB-XI
 Repositori pembelajaran
 Mata Pelajaran: Pemrograman Web & Perangkat Bergerak (PWPB)
 Kelas: XI
@@ -6,7 +5,7 @@ Program Keahlian: Teknik Komputer Jaringan dan Telekomunikasi (TKJT)
 Sekolah: SMK 98 Ciawi Al-Fakhriyah
 Pengajar Mapel: Sir Naufalinux
 
-# 📘 Pemrograman Web SMK
+# 📘 Pemrograman Web
 
 Repositori ini berisi materi, contoh kode, dan panduan untuk pembelajaran **Pemrograman Web** di tingkat SMK. Tujuan utama repo ini adalah membantu siswa memahami dasar-dasar pengembangan web menggunakan editor yang mudah diakses di berbagai platform.
 
